@@ -1,0 +1,411 @@
+@import url("http://fonts.cdnfonts.com/css/inter");
+@import url("http://fonts.cdnfonts.com/css/product-sans");
+@import url("http://fonts.cdnfonts.com/css/google-sans");
+
+body {
+  font-family: "Product sans", sans-serif;
+  background: #FFFFFF;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+/* Home page */
+.home {
+  display: flex;
+}
+
+/*Side bar desktop*/
+.nav {
+  display: flex;
+  min-height: 76vh;
+  padding: 6rem;
+  justify-content: center;
+  background: orange;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.link {
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+/* Sidebar mobile/tablet view */
+.nav-mobile {
+  display: flex;
+  display: none;
+  justify-content: space-around;
+  gap: 3rem;
+  padding: 1.5rem;
+  background: #3A1772;
+}
+
+.nav-links-mobile {
+  display: flex;
+  gap: 4rem;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.link-mobile {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.info-home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.info-home h4 {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  color: #f1587c;
+}
+
+.info-home p {
+  font-size: 1.3rem;
+  margin: auto;
+  margin-bottom: 2.5rem;
+  width: 60%;
+}
+
+
+img {
+  width: 100%;
+}
+
+/* About Page*/
+.about {
+  display: flex;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem;
+  margin: auto;
+}
+
+.about-info {
+  padding: 2.5rem;
+  justify-content: center;
+}
+
+.about-info h2 {
+  padding: 2rem;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  margin-bottom: 1.5rem;
+  transform: translate(-50%, -50%);
+}
+
+.about-info h2:nth-child(1) {
+  color: transparent;
+}
+
+.about-info h2:nth-child(2) {
+  color: #EF476F;
+}
+
+
+
+.about-info p {
+  font-size: 1rem;
+  color: #5D576B;
+  text-align: justify;
+  padding-top: 5rem;
+}
+
+.about-image {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+/* User page */
+.User-Page {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.user-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.container h3 {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.19px;
+  line-height: 44px;
+  color: #EF476F;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 10px;
+  height: 320px;
+  width: 400px;
+  text-align: center;
+  color: #5D576B;
+  text-align: center;
+}
+
+#username {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #EF476F;
+}
+
+#email {
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+#add {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#num {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-img {
+  margin: 1rem;
+}
+
+.card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 25%;
+  margin: auto;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Product Sans";
+}
+
+.footer {
+  padding: auto;
+  margin: auto;
+}
+
+/* Buttons */
+.nxt-btn {
+  width: 120px;
+  margin-left: 1.5rem;
+  font-size: 1em;
+  margin-bottom: 1.5rem;
+  background: #ffffff;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: #EF476F;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.prev-btn {
+  width: 120px;
+  margin-left: 1.5rem;
+  font-size: 1em;
+  background: #ffffff;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: #EF476F;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #EF476F;
+}
+
+@media (max-width: 768px) {
+
+  .hello{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hello button{
+    margin-top: 30%;
+    top: 80%;
+  }
+
+  .nav {
+    display: none;
+  }
+  
+  .nav-mobile {
+    display: flex;
+    width: 88%;
+    margin-top: 60px;
+  }
+
+  .home{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .info-home {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .about-content {
+    flex-direction: column-reverse;
+  }
+
+  .about-info {
+    width: 90%;
+  }
+
+  .about-info p{
+    text-align: justify;
+    padding-top: 5em;
+    padding-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .error-btn{
+    margin-left: 20%;
+    top: 80%;
+  }
+
+  .card{
+    width: 340px;
+  }
+}
+
+@media (max-width: 650px) {
+  .info-home h4 {
+    font-size: 2.3rem !important;
+  }
+
+  .info-home p {
+    font-size: 1.2rem;
+  }
+
+  .user-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .error-btn{
+    margin-left: 20%;
+    top: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .info-home h4 {
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    font-size: 1rem;
+  }
+  .info-home p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .error-btn{
+    margin-left: 20%;
+    top: 80%;
+  }
+}
+
+
+/* Homepage */
+.hello{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hello button {
+  background: #FFFFFF;
+  height: 50px;
+  width: 200px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hello button a{
+  color: #9B5DE5;
+}
+
+/* Error Page */
+.error-btn{
+  background: #FFFFFF;
+  color: #5f5de5;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
